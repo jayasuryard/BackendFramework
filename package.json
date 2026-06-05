@@ -1,7 +1,7 @@
 {
-  "name": "ryoforge-runtime-framework",
-  "version": "1.0.0",
-  "description": "RyoForge Runtime Framework (RRF) - A CLI-driven, metadata-driven, method-oriented backend framework for Node.js & Express.",
+  "name": "@ryoforge17/cli",
+  "version": "1.0.1",
+  "description": "RyoForge Runtime Framework (RRF) - A CLI-driven, metadata-driven, method-oriented backend framework for Node.js & Express. Ships the `rrf` command and the runtime library.",
   "main": "lib/index.js",
   "type": "commonjs",
   "exports": {
@@ -11,36 +11,47 @@
   "bin": {
     "rrf": "bin/rrf.js"
   },
+  "files": [
+    "lib/",
+    "bin/",
+    "README.md"
+  ],
   "scripts": {
-    "start": "node express.js",
-    "start:ws": "node websocket.js",
-    "start:cron": "node cron.js",
-    "dev": "nodemon express.js",
-    "postman": "node postman.js",
-    "swagger": "node -e \"require('./lib').swagger.write()\"",
-    "test": "node --test"
+    "demo": "node examples/demo/express.js",
+    "demo:ws": "node examples/demo/websocket.js",
+    "demo:cron": "node examples/demo/cron.js",
+    "test": "node --test",
+    "prepublishOnly": "node -e \"require('./lib')\""
   },
   "keywords": [
     "framework",
     "backend",
     "cli",
     "express",
+    "websocket",
+    "serverless",
     "method-oriented",
     "rrf",
     "ryoforge"
   ],
   "author": "RyoForge",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryoforge/rrf.git"
+  },
+  "homepage": "https://github.com/ryoforge/rrf#readme",
+  "bugs": {
+    "url": "https://github.com/ryoforge/rrf/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "ajv": "^8.17.1",
-    "ajv-formats": "^3.0.1",
-    "chalk": "^4.1.2",
-    "commander": "^11.1.0",
     "cors": "^2.8.5",
-    "cron-parser": "^4.9.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",

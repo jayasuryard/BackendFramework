@@ -1,0 +1,18 @@
+{
+  "name": "rrf-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Example application built with the RyoForge Runtime Framework (@ryoforge17/cli).",
+  "main": "express.js",
+  "scripts": {
+    "start": "node express.js",
+    "start:ws": "node websocket.js",
+    "start:cron": "node cron.js",
+    "postman": "node postman.js",
+    "swagger": "rrf swagger:generate",
+    "migrate": "rrf migrate:up"
+  },
+  "dependencies": {
+    "@ryoforge17/cli": "^1.0.0"
+  }
+}
