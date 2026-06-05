@@ -1,6 +1,6 @@
 {
   "name": "@ryoforge17/cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "RyoForge Runtime Framework (RRF) - A CLI-driven, metadata-driven, method-oriented backend framework for Node.js & Express. Ships the `rrf` command and the runtime library.",
   "main": "lib/index.js",
   "type": "commonjs",
