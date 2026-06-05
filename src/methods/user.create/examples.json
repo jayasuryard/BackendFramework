@@ -1,0 +1,19 @@
+{
+  "request": {
+    "name": "Ada Lovelace",
+    "email": "ada@example.com",
+    "password": "secret123",
+    "roles": ["user"]
+  },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "User created successfully",
+    "responseData": {
+      "id": "00000000-0000-0000-0000-000000000000",
+      "name": "Ada Lovelace",
+      "email": "ada@example.com",
+      "roles": ["user"],
+      "status": "active"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "appName": "RRF Demo",
+  "version": "1.0.0",
+  "baseUrl": "http://localhost:3000",
+  "defaultLang": "en",
+  "languages": ["en", "hi", "kn", "ar", "es", "fr"]
+}

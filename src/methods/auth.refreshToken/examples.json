@@ -1,0 +1,4 @@
+{
+  "request": { "refreshToken": "<jwt>" },
+  "response": { "responseCode": 200, "responseMessage": "Token refreshed successfully", "responseData": { "accessToken": "<jwt>" } }
+}

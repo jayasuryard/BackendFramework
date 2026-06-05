@@ -1,0 +1,4 @@
+{
+  "request": { "page": 1, "pageSize": 20 },
+  "response": { "responseCode": 200, "responseMessage": "Users fetched successfully", "responseData": { "items": [] }, "meta": { "total": 0, "page": 1, "pageSize": 20 } }
+}

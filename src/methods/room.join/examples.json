@@ -1,0 +1,4 @@
+{
+  "request": { "room": "lobby" },
+  "response": { "responseCode": 200, "responseMessage": "Joined room successfully", "responseData": { "room": "lobby" } }
+}

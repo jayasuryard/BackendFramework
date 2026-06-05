@@ -1,0 +1,10 @@
+node_modules/
+logs/*.log
+.env
+storage/*
+!storage/.gitkeep
+Assets/Uploads/*
+Assets/Downloads/*
+!**/.gitkeep
+swagger.json
+postman/collection.json

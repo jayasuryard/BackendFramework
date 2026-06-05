@@ -1,0 +1,4 @@
+{
+  "request": { "id": "00000000-0000-0000-0000-000000000000" },
+  "response": { "responseCode": 200, "responseMessage": "User deleted successfully", "responseData": {} }
+}

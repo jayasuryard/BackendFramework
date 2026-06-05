@@ -1,0 +1,8 @@
+{
+  "request": { "email": "ada@example.com", "password": "secret123" },
+  "response": {
+    "responseCode": 200,
+    "responseMessage": "Logged in successfully",
+    "responseData": { "accessToken": "<jwt>", "refreshToken": "<jwt>", "user": {} }
+  }
+}
