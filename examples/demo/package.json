@@ -5,10 +5,11 @@
   "description": "Example application built with the RyoForge Runtime Framework (@ryoforge17/cli).",
   "main": "express.js",
   "scripts": {
-    "start": "node express.js",
-    "start:ws": "node websocket.js",
-    "start:cron": "node cron.js",
-    "postman": "node postman.js",
+    "start": "rrf run",
+    "start:ws": "rrf run ws",
+    "start:cron": "rrf run cron",
+    "start:all": "rrf run all",
+    "postman": "rrf postman:generate",
     "swagger": "rrf swagger:generate",
     "migrate": "rrf migrate:up"
   },

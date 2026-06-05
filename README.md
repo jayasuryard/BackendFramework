@@ -21,9 +21,10 @@ npm install -g @ryoforge17/cli      # adds the `rrf` command globally
 ```bash
 rrf create myapp             # scaffold a project (auto-installs dependencies)
 cd myapp
-npm start                    # Express runtime   -> http://localhost:3000
-npm run start:ws             # WebSocket runtime -> ws://localhost:4000
-npm run start:cron           # Scheduler runtime
+rrf run                      # Express runtime   -> http://localhost:3000
+rrf run ws                   # WebSocket runtime -> ws://localhost:4000
+rrf run cron                 # Scheduler runtime
+rrf run all                  # Everything in one process
 ```
 
 > `rrf create` installs dependencies for you. Use `rrf create myapp --no-install`
